@@ -1,0 +1,21 @@
+.wrapper
+{
+  display: flex;
+}
+
+.wrapper > div
+{
+  font-size: 4vh;
+  margin: .1em;
+  padding: .3em;
+  color: white;
+  background-color: hotpink;
+  flex: 1;
+  border-radius: 3px;
+}
+
+.wrapper .wrapper > div
+{
+  color: hotpink;
+  background-color: pink;
+}
