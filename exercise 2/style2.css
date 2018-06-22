@@ -38,10 +38,20 @@ img
 
 .wrapper .wrapper:nth-of-type(1) > div:nth-of-type(2)
 {
-  background: orange;
+  background: orangered;
 }
 
 .wrapper .wrapper:nth-of-type(1) > div:nth-of-type(3)
+{
+  background: orange;
+}
+
+.wrapper .wrapper:nth-of-type(1) > div:nth-of-type(4)
+{
+  background: gold;
+}
+
+.wrapper .wrapper:nth-of-type(1) > div:nth-of-type(5)
 {
   background: yellow;
 }
